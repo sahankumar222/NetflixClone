@@ -8,12 +8,13 @@ function App() {
       <header className="App-header">
     
         <p>
-          Hello world!
+          Netflix Clone
         </p>
         {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
+          i
           rel="noopener noreferrer"
         >
           Learn React
