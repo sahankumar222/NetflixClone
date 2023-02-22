@@ -1,15 +1,14 @@
 import "./App.css";
-
-
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
     
-        <p>
+        {/* <p>
           Netflix Clone
-        </p>
+        </p> */}
         {/* <a
           className="App-link"
           href="https://reactjs.org"
@@ -19,6 +18,7 @@ function App() {
         >
           Learn React
         </a> */}
+        <Navbar/>
       </header>
     </div>
   );
