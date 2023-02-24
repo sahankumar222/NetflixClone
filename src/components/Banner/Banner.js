@@ -8,7 +8,7 @@ const Banner = () => {
   useEffect(() => {
     async function fetchData() {
       const response = await axios.get(requests.fetchTrending);
-      console.log(response.data);
+      // console.log(response.data);
       setMovie(
         response.data.results[
           Math.floor(Math.random() * response.data.results.length - 1)
@@ -24,7 +24,6 @@ const Banner = () => {
       <header
         className="banner"
         style={{
-          backgroundSize: 'cover',
           backgroundPosition: 'center center',
           backgroundImage: `url(https://image.tmdb.org/t/p/original/${movie?.backdrop_path})`
         }}
